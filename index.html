@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Fonts Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Fonts End -->
+    <!-- Fonts Icons Start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fontes Icons End -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.scss">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <title>Dev Barber - Sua barbearia aqui!</title>
+
+</head>
+
+<body>
+    <!-- START HEADER -->
+    <div class="bg-home">
+        <header>
+            <nav class="header-content container">
+                <!-- icons start -->
+                <div class="header-icons" data-aos="fade-down">
+                    <a href="#"></a>
+                    <!-- Aqui são icons, com a biblioteca, chamando diretamente do font icons, com class name definindo quais são -->
+                    <a href=""> <i class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok fa-2x"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook fa-2x"></i></a>
+
+                </div>
+                <!-- logo start-->
+                <div class="header-logo" data-aos="fade-down">
+                    <img src="img/logoAzul.png" alt="Logo da Barbearia">
+                </div>
+                <!-- links start -->
+                <div data-aos="fade-down">
+                    <a class="header-button" href="https://api.whatsapp.com/send?phone=55555555555&text=Quero%20fazer%20um%20agendamento!" target="_blank">Agendar horário</a>
+                </div>
+            </nav>
+            <!-- START MAIN -->
+            <main>
+                <div class="hero container" data-aos="fade-down">
+                    <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.</h1>
+                    <P>Horário de funcionamento: 09:00 ás 19:00</P>
+                    <a href="https://api.whatsapp.com/send?phone=55555555555&text=Quero%20fazer%20um%20agendamento!" class="button-contact" target="_blank">
+                        Agendar horário
+                    </a>
+
+                </div>
+            </main>
+
+        </header>
+    </div>
+
+
+    <!-- ABOUT -->
+    <section class="about">
+        <div class="container about-content">
+            <div data-aos="zoom-in" data-aos-delay="100">
+                <img src="assets/imagens.png" alt="Imagem sobre a barbearia">
+            </div>
+            <div class="about-description" data-aos="zoom-out-left " data-aos-delay="110">
+                <h2>Sobre</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quam delectus ipsam illo quasi
+                    sunt odio nostrum enim architecto ad praesentium vero inventore ratione doloribus veritatis est
+                    iste consequatur nobis.</p>
+                <p>Horário de funcionamento: <strong>09:00</strong> ás <strong>19:00</strong></p>
+            </div>
+        </div>
+    </section>
+    <!-- SERVICES -->
+    <section class="services">
+        <div class="services-content container">
+            <h2>Serviços</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo officia ullam, placeat odio aperiam dolores
+                harum ratione sequi exercitationem vitae quibusdam iste eligendi dignissimos blanditiis pariatur autem,
+                architecto inventore accusantium
+            <p>
+        </div>
+        <!-- HAIRCUTS -->
+        <section class="haircuts">
+
+            <!-- corte normal -->
+            <div class="haircut" data-aos="fade-up" data-aos-delay="150">
+                <img src="assets/corte1.png" alt="Corte normal">
+                <div class="haircut-info">
+                    <strong>Corte normal</strong>
+                    <button>
+                        R$ 45,00
+                    </button>
+                </div>
+            </div>
+
+            <!-- barba completa -->
+            <div class="haircut" data-aos="fade-up" data-aos-delay="350">
+                <img src="assets/corte2.png" alt="barba completa">
+                <div class="haircut-info">
+                    <strong>Barba completa</strong>
+                    <button>
+                        R$ 35,00
+                    </button>
+                </div>
+            </div>
+            <!-- corte e barba -->
+            <div class="haircut" data-aos="fade-up" data-aos-delay="550">
+                <img src="assets/corte3.png" alt="Corte e barba">
+                <div class="haircut-info">
+                    <strong>Corte e barba</strong>
+                    <button>
+                        R$ 45,00
+                    </button>
+                </div>
+            </div>
+
+        </section>
+    </section>
+    <!-- FOOTER -->
+    <div class="services">
+        <h2>Venha conhecer</h2>
+    </div>
+    <iframe width="100%"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15936.551109538652!2d-59.97210618240519!3d-3.057789150892421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1bbb9ec44255%3A0x3a9cebc1fbf3017d!2sLos%20Muchachos%20Barbearia!5e0!3m2!1spt-BR!2sbr!4v1695759593295!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer class="footer">
+
+        <div class="footer-icons header-icons" >
+            <a href="#"> <i class="fa-brands fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+        </div>
+        <div>
+            <img src="img/logoAzul.png" alt="Logo barbearia">
+        </div>
+        <P>Copyright 2023 | Dev Barberia - Todos direitos reservados</P>
+    </footer>
+<!-- Button whatsapp -->
+<a href="https://api.whatsapp.com/send?phone=55555555555&text=Quero%20fazer%20um%20agendamento!" class="btn-whatsapp" target="_blank">
+    <img src="assets/whatssapp.svg" alt="Botão whatsapp">
+    <span class="tooltip-text">Agende seu horário</span>
+</a>
+
+
+<script src="index.js"></script>
+</body>
+
+</html>
